@@ -3,7 +3,7 @@ import React from 'react'
 export default class Stepper extends React.Component {
     constructor(props) {
         super(props);
-        this.state ={number:0}
+        this.state = {number:0}
     }
     
     
@@ -19,10 +19,9 @@ export default class Stepper extends React.Component {
         return (
             <>
                 <button type='button' onClick={this.addOne}>+</button>
-                <div className="number">{this.state.number}</div>
+                <div className='number'>{this.state.number}</div>
                 <button type='button' onClick={this.subtractOne}>-</button>
             </>
-            )
-
+        )
     }
 }
